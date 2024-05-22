@@ -5,8 +5,29 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Clase 6 tarea 2</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
 </head>
 <body>
+    <h1>Ingresá los salarios anuales de tus familiares:</h1>
+    <div>
+        <button id="agregar-salario">Agregar salario</button>
+    </div>
+    <div id="salarios">
+
+    </div>
+    <div>
+        <button class="oculto" id="eliminar-salario">Eliminar último salario</button>
+        
+    </div>
+    <div id="calcular" class="oculto"><button>Calcular</button></div>
+    <div id="resultados" class="oculto">
+        <p id="mayor-salario">El mayor salario es: </p>
+        <p id="menor-salario">El menor salario es: </p>
+        <p id="promedio-salarios">El promedio de los salarios es: </p>
+        <p id="promedio-mensual-salarios">El promedio mensual de los salarios es: </p>
+    </div>
+    <script src="calculos.js"></script>
     <script src='tarea-2.js'></script>
 </body>
 </html>
